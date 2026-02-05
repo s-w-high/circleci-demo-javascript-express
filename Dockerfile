@@ -1,4 +1,4 @@
-FROM node
+FROM node:25.6.0-bookworm
 MAINTAINER jaga santagostino <kandros5591@gmail.com>
 
 RUN mkdir -p /usr/src/app
